@@ -12,6 +12,7 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
 
   <!-- Custom fonts for this template -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -31,6 +32,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
+      <img src="../startbootstrap-agency-gh-pages/img/easy.png" width="80px" height="80px">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">EasyConnect</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
@@ -38,29 +40,25 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="startbootstrap-agency-gh-pages\aboutus.html">About</a>
+              </li>
           <li class="nav-item">
                   <a onclick="myFunction()" href="#services" class="dropbtn nav-link js-scroll-trigger">Services</a>
                   <div id="myDropdown" class="dropdown-content">
                     <a href="#about">Plumbing</a>
-                    <a href="#base">Fashion Design</a>
-                    <a href="#blog">Painting/Interior Decoration</a>
-                    <a href="#contact">Web Design</a>
-                    <a href="#custom">BrickLaying/Building</a>
+                    <a href="#base">Tailoring</a>
+                    <a href="#blog">Painting</a>
+                    <a href="#custom">BrickLaying</a>
                     <a href="#support">Automobile Repairs</a>
-                    <a href="#tools">Capentery</a>
+                    <a href="#tools">Carpentry</a>
                   </div>
             </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Gallery</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="Contact-Us-master\contact.html">Contact Us</a>
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="signin.html">Sign-In</a>
@@ -84,14 +82,26 @@
       </div>
     </div>
   </header>
-
+  <br>
+  
+  <!-- Testimonial page -->
+  <section class="bg-light page-section" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Testimonial Page</h2>
+          <p>"EasyConnect is the go-to shop for professional artisans" XYZ</p>
+          <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+        </div>
+      </div>
+    </section>
 
   <!-- Portfolio Grid -->
   <section class="bg-light page-section" id="portfolio">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
+          <h2 class="section-heading text-uppercase">Gallery</h2>
           <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
         </div>
       </div>
@@ -103,7 +113,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/Carpentry img.png" height="1000%">
+            <img src="img/Carpenter.png" class="img-rounded" width="304" height="236">
           </a>
           <div class="portfolio-caption">
             <h4>Carpentry</h4>
@@ -117,7 +127,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/Plumbing img.png" alt="">
+            <img src="img/plumber.png" class="img-rounded" width="304" height="236">
           </a>
           <div class="portfolio-caption">
             <h4>Plumbing</h4>
@@ -131,7 +141,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/Painters img.png" alt="">
+            <img src="img/portfolio/Painters img.png" class="img-rounded" width="304" height="236">
           </a>
           <div class="portfolio-caption">
             <h4>Painting</h4>
@@ -145,7 +155,7 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/Paneelbeater img.png" alt="">
+            <img src="img/portfolio/Paneelbeater img.png" class="img-rounded" width="304" height="236">
           </a>
           <div class="portfolio-caption">
             <h4>Panelbeating</h4>
@@ -159,10 +169,10 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+            <img src="img/Tailoring.jpg" class="img-rounded" width="304" height="236">
           </a>
           <div class="portfolio-caption">
-            <h4>Website Design</h4>
+            <h4>Tailoring</h4>
             <!-- <p class="text-muted">Website Design</p> -->
           </div>
         </div>
@@ -173,193 +183,17 @@
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+            <img src="img/mechanic.jpg" class="img-rounded" width="304" height="236">
           </a>
           <div class="portfolio-caption">
-            <h4>Photography</h4>
+            <h4>Automibile Repairs</h4>
             <!-- <p class="text-muted">Photography</p> -->
           </div>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- About -->
-  <section class="page-section" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
-          <h3 class="section-subheading text-muted" style="font-family: 'Times New Roman', Times, serif; font-size: 30px;">EasyConnect is an online business directory for artisans and small and medium scale enterprises (“SMEs”) in Nigeria.
-            The portal provides an avenue for small businesses to increase their market coverage by opening up new markets segments for their services via the internet..</h3>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="timeline">
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="subheading">Our Vision</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">To provide an online platform for professional artisan services while opening up the potential market for these artisans to thrive and advertise their services to a much wider audience.</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="subheading">Our Mission</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">To become the leading digital Artisan firm in Nigeria providing professional Artisan services to the comfort and safety of our clients.</p>
-                </div>
-              </div>
-            </li>
-            <li>
-               <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4 class="subheading">Core Values</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Integrity</p>
-                  <p class="text-muted">Collaborative</p>
-                  <p class="text-muted">Professional</p>
-                  <p class="text-muted">Client Oriented</p>
-
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <!-- <h4>November 2019</h4> -->
-                  <h4 class="subheading">Brief History of EasyConnect</h4>
-                </div>
-                <br>
-                <div class="timeline-body">
-                  <p class="text-muted" ></p>Birthed in November, 2019 from the minds of four innovative Social Entrepreneurs who are technologically inclined, EasyConnect serves as a collaborative business partner to Artisans and clients. We also understand that every client has unique artisan needs, so our services are tailored to align with these needs for their wellbeing. 
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Team -->
-  <section class="bg-light page-section" id="team">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Meet Our Amazing Team</h2>
-          <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="C:\Users\User Pc\Desktop\artisans\startbootstrap-agency-gh-pages\img\team\Dara.jpg" alt="">
-            <h4>Dara Nelson</h4>
-            <!-- <p class="text-muted">Lead Designer</p> -->
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/Elisha.jpeg" alt="">
-            <h4>Elisha Samuel Mamtara</h4>
-            <!-- <p class="text-muted">Lead Marketer</p> -->
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-4">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/Dami.jpeg" alt="">
-            <h4>Hazzan Oluwadamilola</h4>
-            <!-- <p class="text-muted">Lead Developer</p> -->
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-linkedin-in"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <!-- <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p> -->
-        </div>
-      </div>
-    </div>
-  </section>
-
+  
   <!-- Partners -->
   <section class="py-5">
     <div class="container">
@@ -494,14 +328,20 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">Carpentry</h2>
+                <p class="item-intro text-muted">EasyConnect Artisan.</p>
+                <img src="../startbootstrap-agency-gh-pages/img/Carpenter.png" alt="" class="img-rounded" width="304" height="236" ">
+                <p>Furniture making and design, doors making, etc</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
+                  <!-- <li>Date: Janu</li> -->
+                  <li>Client: Elisha</li>
+                  <!-- <li>Category: Illustration</li> -->
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -528,14 +368,20 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">Plumbing</h2>
+                <p class="item-intro text-muted">EasyConnect Artisan</p>
+                <img src="../startbootstrap-agency-gh-pages/img/plumber.png" alt="" class="img-rounded" width="304" height="236">
+                <p>Broken water or waste pipes, waste Management, General running of pipes for new and old properties</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
+                  <!-- <li>Date: January 2017</li>
+                  <li>Client: Explore</li> -->
+                  <!-- <li>Category: Plum</li> -->
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -562,14 +408,20 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">Painting</h2>
+                <p class="item-intro text-muted">EasyConnect Artisan</p> 
+                <img src="../startbootstrap-agency-gh-pages/img/portfolio/Painters img.png" alt=""  class="img-rounded" width="304" height="236">
+                <p>House and office paintings</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Finish</li>
-                  <li>Category: Identity</li>
+                  <!-- <li>Date: January 2017</li>
+                  <li>Client: Finish</li> -->
+                  <!-- <li>Category: Painting</li> -->
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -596,14 +448,20 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">Panel Beater</h2>
+                <p class="item-intro text-muted">EasyConnect Artisan</p>
+                <img src="../startbootstrap-agency-gh-pages/img/portfolio/Paneelbeater img.png" alt="" class="img-rounded" width="304" height="236">
+                <p>Automibile painting and Rebranding.</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Lines</li>
-                  <li>Category: Branding</li>
+                  <!-- <li>Date: January 2017</li>
+                  <li>Client: Lines</li> -->
+                  <!-- <li>Category: Branding</li> -->
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -630,14 +488,20 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">Web Design</h2>
+                <p class="item-intro text-muted">EasyConnect Artisan</p>
+                <img class="img-fluid d-block mx-auto" src="../startbootstrap-agency-gh-pages/img/portfolio/05-thumbnail.jpg" alt="" width="500px" height="500px">
+                <p>Front-End, Back-End and Full Stack Website Development</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Southwest</li>
-                  <li>Category: Website Design</li>
+                  <!-- <li>Date: January 2017</li>
+                  <li>Client: Southwest</li> -->
+                  <!-- <li>Category: Website Design</li> -->
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -664,14 +528,20 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">Photography</h2>
+                <p class="item-intro text-muted">EasyConnect Artisan</p>
+                <img class="img-fluid d-block mx-auto" src="../startbootstrap-agency-gh-pages/img/portfolio/06-thumbnail.jpg" alt="" width="500px" height="500px">
+                <p>Event covering and photographs, personal and home service shots etc.</p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Window</li>
-                  <li>Category: Photography</li>
+                  <!-- <li>Date: January 2017</li> -->
+                  <!-- <li>Client: Window</li> -->
+                  <!-- <li>Category: Photography</li> -->
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -698,6 +568,8 @@
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
   <script src="startbootstrap-agency-gh-pages\js\agency.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 </body>
 
